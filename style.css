@@ -1,0 +1,220 @@
+body{
+    font-family: 'Finlandica', sans-serif;
+}
+
+.container{
+    background-image: url('https://cdn.shopify.com/s/files/1/0081/4261/8677/products/PrecisionBassBodyCloseup1_2048x.jpg?v=1595254106');
+    background-size:auto;
+ 
+}
+
+
+
+h1, nav{
+    text-align: center;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: "\1F44D";
+    font-size: larger;
+}
+
+h2{
+color:black;
+}
+
+u{
+    text-decoration-color: aqua;
+}
+
+
+.his{
+    text-align: center;
+    font-size: larger;
+}
+
+.shifty{
+    float:left;
+    
+}
+
+.fender{
+    box-shadow: 2px 2px 10px 5px  grey;
+}
+
+span{
+    color:red
+}
+
+h2{
+text-align: center;
+font-size:xx-large;
+}
+
+.typ{
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bass1{
+    background:black;
+    color:white;
+    width: 270px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.bass-image{
+    
+    height: 300px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+
+.bs1{
+    background-image: url('https://www.euro-unit.com/images/stories/virtuemart/product/Fender%20Player%20Precision%20Bass%20PF%203-Color%20Sunburst.jpg');
+}
+
+.bs2{
+    background-image:url('https://sc1.musik-produktiv.com/pic-010124514xxl/fender-american-professional-ii-p-bass-mn-3tsb.jpg')
+}
+
+.bs3{
+    background-image: url('https://images.musicstore.de/images/1280/fender-american-original-50s-precision-bass-mn-white-blonde_1_BAS0009430-000.jpg');
+}
+
+.bs4{
+    background-image: url('https://sc1.musik-produktiv.com/pic-010145506xxl/fender-custom-shop-ltd-1958-heavy-relic-precision-bass-10145506.jpg')
+
+}
+
+.bass1:hover{
+    background-color: teal;
+    color:rgb(6, 54, 36);
+    cursor:crosshair;
+    transform:scale(2.0)
+}
+
+.flip-box-inner {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front, .flip-box-back {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front {
+color: black;
+  }
+
+  .flip-box-back {
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-inner1 {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box1:hover .flip-box-inner1 {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front1, .flip-box-back1 {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front1 {
+color: black;
+  }
+
+  .flip-box-back1 {
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+ .slije{
+    margin-top: 30rem;
+ }
+
+ .flip-box-inner2 {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front2, .flip-box-back2 {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front2 {
+color: black;
+  }
+
+  .flip-box-back2 {
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  .slije2{
+    margin-top: 65rem;
+  }
+
+.fenda, .bejs{
+    background: linear-gradient(260deg,white, rgb(111, 111, 198));
+    position: absolute;
+    top: 50%;
+    left:30%;
+    box-sizing: border-box;
+    transform: translate:(-50%,-50%);
+    height:20rem;
+    width:20rem;
+    margin:0;
+    padding:0;
+    
+}
+
+.ajmo{
+    background-origin: inherit;
+}
+
+#bass-guitar-svgrepo-com1{
+    background: white;
+}
